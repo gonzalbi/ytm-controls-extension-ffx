@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "YTM-Controls",
+  "version": "1.0",
+ 
+  "description": "Adds control funcionality to mediatrack keys on youtube music",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*music.youtube.com/*"],
+      "js": ["ytm-music-controls.js"]
+    }
+  ]
+
+}
